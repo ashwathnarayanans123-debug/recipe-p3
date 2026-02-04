@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RecipeJS - Part 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>🍳 RecipeJS - Functional Cooking Companion</h1>
+
+    <!-- FILTER + SORT CONTROLS -->
+    <div id="controls">
+        <h2>Filters</h2>
+        <button data-filter="all" class="filter-btn active">All</button>
+        <button data-filter="easy" class="filter-btn">Easy</button>
+        <button data-filter="medium" class="filter-btn">Medium</button>
+        <button data-filter="hard" class="filter-btn">Hard</button>
+        <button data-filter="quick" class="filter-btn">Quick (&lt; 30 min)</button>
+
+        <h2>Sorting</h2>
+        <button data-sort="name" class="sort-btn">Name (A–Z)</button>
+        <button data-sort="time" class="sort-btn">Time (Fastest First)</button>
+        <button data-sort="none" class="sort-btn active">Default Order</button>
+    </div>
+
+    <!-- RECIPE CARDS -->
+    <div id="recipe-container"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
